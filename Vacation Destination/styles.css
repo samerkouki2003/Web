@@ -1,47 +1,55 @@
-h1,h2,h3,h4,ul,li,p{
+h1, h2, h3, h4, ul, li, p, img, body, header, main, label, input, textarea, button {
   margin: 0;
   padding: 0;
 }
 
-img{
+img {
   max-width: 100%;
 }
-body{
+
+body {
   font-family: Arial;
   color: #333;
 }
-header{
+
+header {
   padding: 50px;
   background-color: cornflowerblue;
   text-align: center;
   color: white;
   margin-bottom: 20px;
-
 }
-main{
+
+main {
   max-width: 800px;
   padding: 20px;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
-main form{
+
+main form {
   width: 40%;
 }
-main article{
+
+main article {
   width: 45%;
 }
-h1,h2,h3,h4,p{
+
+h1, h2, h3, h4, p {
   margin-bottom: 1em;
 }
-#title{
+
+#title {
   text-align: center;
 }
-label{
+
+label {
   display: block;
   margin-bottom: .5em;
 }
-input,textarea,#destination_details_from button{
+
+input, textarea, #destination_details_form button {
   display: block;
   width: 100%;
   margin-bottom: 1em;
